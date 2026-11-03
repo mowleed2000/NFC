@@ -413,3 +413,268 @@
   .process-grid { grid-template-columns: 1fr; }
   .installer-checklist { grid-template-columns: 1fr; }
 }
+
+/* Multi-Step Form Styles */
+.multi-step-container {
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 3rem;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.step-progress-wrapper {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.step-progress-bar {
+  height: 4px;
+  background: var(--color-bg-subtle);
+  border-radius: var(--radius-full);
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.step-progress-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--color-accent-forest);
+  border-radius: var(--radius-full);
+  transition: width 0.3s ease;
+  width: 0%;
+}
+
+.step-progress-indicators {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.step-progress-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.step-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--color-border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  background: #FFFFFF;
+  color: var(--color-dark);
+}
+
+.step-progress-item.active {
+  color: var(--color-accent-forest);
+}
+
+.step-progress-item.active .step-circle {
+  border-color: var(--color-accent-forest);
+  background: var(--color-accent-forest);
+  color: #FFFFFF;
+}
+
+.step-progress-item.completed {
+  color: var(--color-accent-forest);
+}
+
+.step-progress-item.completed .step-circle {
+  background: var(--color-accent-forest);
+  border-color: var(--color-accent-forest);
+  color: #FFFFFF;
+}
+
+.form-step-panel {
+  display: none;
+}
+
+.form-step-panel.active {
+  display: block;
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Radio Card Selector (Step 1) */
+.radio-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.radio-card {
+  position: relative;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  cursor: pointer;
+  background: #FFFFFF;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-card:hover {
+  border-color: var(--color-accent-olive);
+  background: var(--color-bg-alt);
+}
+
+.radio-card input[type="radio"] {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  accent-color: var(--color-accent-forest);
+  width: 18px;
+  height: 18px;
+}
+
+.radio-card:has(input[type="radio"]:checked) {
+  border-color: var(--color-accent-forest);
+  background: var(--color-accent-tint);
+  box-shadow: 0 0 0 1px var(--color-accent-forest);
+}
+
+.radio-card h4 {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.radio-card p {
+  font-size: 0.8125rem;
+  color: var(--color-text-body);
+  margin: 0;
+}
+
+/* Checkbox Card Grid (Step 2) */
+.product-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.product-check-card {
+  position: relative;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  cursor: pointer;
+  background: #FFFFFF;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.product-check-card:hover {
+  border-color: var(--color-accent-olive);
+  background: var(--color-bg-alt);
+}
+
+.product-check-card input[type="checkbox"] {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  accent-color: var(--color-accent-forest);
+  width: 18px;
+  height: 18px;
+}
+
+.product-check-card:has(input[type="checkbox"]:checked) {
+  border-color: var(--color-accent-forest);
+  background: var(--color-accent-tint);
+  box-shadow: 0 0 0 1px var(--color-accent-forest);
+}
+
+.product-check-card h5 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.product-check-card span {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+/* Quantity Preset Pills */
+.qty-pills-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.qty-preset-pill {
+  padding: 0.5rem 1rem;
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.qty-preset-pill:hover,
+.qty-preset-pill.active {
+  background: var(--color-accent-forest);
+  border-color: var(--color-accent-forest);
+  color: #FFFFFF;
+}
+
+.step-error-message {
+  color: #DC2626;
+  font-size: 0.8125rem;
+  margin-top: 0.75rem;
+  display: none;
+}
+
+.step-error-message.visible {
+  display: block;
+}
+
+.form-nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+/* Product Spec Table */
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  margin-top: 1.5rem;
+}
+
+.spec-table th, .spec-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.spec-table th {
+  background: var(--color-bg-alt);
+  font-weight: 700;
+  color: var(--color-dark);
+}

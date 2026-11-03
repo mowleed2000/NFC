@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://venuepoint.co.uk/sitemap.xml
+Sitemap: https://mowleed2000.github.io/NFC/sitemap.xml

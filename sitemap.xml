@@ -1,135 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://venuepoint.co.uk/</loc>
+    <loc>https://mowleed2000.github.io/NFC/</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- Products -->
   <url>
-    <loc>https://venuepoint.co.uk/solutions/</loc>
+    <loc>https://mowleed2000.github.io/NFC/products/nfc-keyrings.html</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/products/google-reviews.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/solutions/review-solutions.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/products/digital-menus.html</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/solutions/digital-menus.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/products/social-media.html</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/solutions/table-ordering.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/products/cards-stickers-tags.html</loc>
     <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- Solutions -->
   <url>
-    <loc>https://venuepoint.co.uk/hospitality-groups.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/solutions/</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/about.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/solutions/google-reviews.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/solutions/digital-menus.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/solutions/social-media.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/solutions/event-promotional.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Industries -->
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/industries/hospitality.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/industries/events-exhibitions.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/industries/retail-business.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/industries/agencies-promotional.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <!-- Services, Company & Contact -->
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/installation.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/case-studies.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/about.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/</loc>
+    <loc>https://mowleed2000.github.io/NFC/case-studies.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/contact.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/faqs.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Insights -->
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/insights/</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/how-digital-customer-touchpoints-are-changing-hospitality.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/how-nfc-technology-connects-physical-businesses-to-digital-experiences.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/why-every-restaurant-should-make-its-menu-easy-to-access.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/how-businesses-can-make-it-easier-for-customers-to-leave-google-reviews.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/how-pubs-can-make-it-easier-for-customers-to-leave-google-reviews.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/nfc-keyrings-a-new-approach-to-event-and-promotional-merchandise.html</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://mowleed2000.github.io/NFC/insights/how-exhibition-organisers-can-use-nfc-to-connect-with-attendees.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/digital-menus-vs-traditional-printed-menus.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/nfc-vs-qr-codes-understanding-the-differences.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/what-restaurant-owners-should-know-before-introducing-table-ordering.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/how-restaurants-can-use-nfc-table-tags-for-digital-menus.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/how-multi-site-pub-groups-can-standardise-customer-experience.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/using-nfc-products-to-increase-social-media-engagement.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/seven-small-digital-improvements-that-make-a-difference.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/how-retail-businesses-can-create-better-customer-touchpoints.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/insights/how-to-introduce-new-technology-without-disrupting-operations.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/what-is-nfc-programming-and-how-does-it-work.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://venuepoint.co.uk/contact.html</loc>
+    <loc>https://mowleed2000.github.io/NFC/insights/how-marketing-agencies-can-use-nfc-products-in-promotional-campaigns.html</loc>
     <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://venuepoint.co.uk/faqs.html</loc>
-    <lastmod>2026-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://venuepoint.co.uk/privacy.html</loc>
-    <lastmod>2026-11-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://venuepoint.co.uk/cookie-policy.html</loc>
-    <lastmod>2026-11-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://venuepoint.co.uk/terms.html</loc>
-    <lastmod>2026-11-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
