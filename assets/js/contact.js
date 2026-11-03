@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     if (progressBarFill) {
-      progressBarFill.style.width = ${((stepIndex - 1) / (totalSteps - 1)) * 100}%;
+      progressBarFill.style.width = `${((stepIndex - 1) / (totalSteps - 1)) * 100}%`;
     }
 
     if (prevBtn) prevBtn.style.display = stepIndex === 1 ? 'none' : 'inline-flex';
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function validateCurrentStep() {
-    const activePanel = form.querySelector(.form-step-panel[data-step=""]);
+    const activePanel = form.querySelector(`.form-step-panel[data-step="${currentStep}"]`);
     if (!activePanel) return true;
 
     let valid = true;
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const productParam = urlParams.get('product');
 
   if (typeParam) {
-    const radio = form.querySelector(input[name="customer_type"][value=""]);
+    const radio = form.querySelector(`input[name="customer_type"][value="${typeParam}"]`);
     if (radio) {
       radio.checked = true;
       updateConditionalFields();
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (productParam) {
-    const checkbox = form.querySelector(input[name="product_interest"][value=""]);
+    const checkbox = form.querySelector(`input[name="product_interest"][value="${productParam}"]`);
     if (checkbox) checkbox.checked = true;
   }
 

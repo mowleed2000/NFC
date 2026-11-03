@@ -1023,3 +1023,129 @@
   color: var(--color-text-muted);
   margin-bottom: 1.25rem;
 }
+
+/* Universal Lead Capture & Installer Section */
+.vp-lead-section {
+  padding: 5rem 0;
+  background: linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 100%);
+  border-top: 1px solid var(--color-border);
+  position: relative;
+}
+
+.vp-lead-card {
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+}
+
+.vp-installer-callout {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FCD34D;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.vp-trust-pill-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.vp-trust-pill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.vp-spin {
+  animation: vp-rotate 1s linear infinite;
+}
+
+@keyframes vp-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Mobile Sticky Conversion Bar */
+.vp-mobile-sticky-bar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #FFFFFF;
+  border-top: 1px solid #E2E8F0;
+  padding: 0.65rem 1rem;
+  z-index: 999;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.vp-mobile-sticky-inner {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.vp-sticky-btn {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.75rem 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.vp-sticky-call {
+  background: #F1F5F9;
+  color: #1E293B;
+  border: 1px solid #CBD5E1;
+}
+
+.vp-sticky-call:hover {
+  background: #E2E8F0;
+  color: #0F172A;
+}
+
+.vp-sticky-book {
+  background: var(--color-accent-forest);
+  color: #FFFFFF;
+}
+
+.vp-sticky-book:hover {
+  background: #0D7A53;
+  color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+  .vp-mobile-sticky-bar {
+    display: block;
+  }
+  body {
+    padding-bottom: 65px; /* Give room for sticky bar */
+  }
+  .vp-lead-card {
+    padding: 1.5rem 1rem;
+  }
+}
+

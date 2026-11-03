@@ -483,22 +483,25 @@
 
           <!-- Genuine Confirmation Block -->
           <div id="formSuccessBlock" style="display: none; text-align: center; padding: 3rem 1rem;">
-            <div style="width: 64px; height: 64px; border-radius: 50%; background: var(--color-accent-tint); color: var(--color-accent-forest); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
-              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <div style="width: 68px; height: 68px; border-radius: 50%; background: #D1FAE5; color: #059669; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
             </div>
-            <h2>Quote Request Received</h2>
-            <p class="lead" style="margin: 1rem auto 1.5rem; max-width: 580px;">
-              Thank you for providing your project details. A VenuePoint product specialist is reviewing your specifications.
+            <h2 style="margin-bottom: 0.75rem;">Installation Request Received</h2>
+            <div style="display: inline-block; background: #FEF3C7; color: #92400E; border: 1px solid #FCD34D; font-weight: 700; font-size: 1.0625rem; padding: 0.6rem 1.25rem; border-radius: var(--radius-sm); margin-bottom: 1.25rem;">
+              Please check your messages &mdash; an installer will be in touch shortly.
+            </div>
+            <p class="lead" style="margin: 0 auto 1.75rem; max-width: 580px; color: var(--color-text-body);">
+              Thank you for providing your venue details. A VenuePoint installation specialist is reviewing your specifications and will message your contact number directly.
             </p>
-            <div style="background: var(--color-bg-alt); padding: 1.5rem; border-radius: var(--radius-md); max-width: 540px; margin: 0 auto 2rem; font-size: 0.9375rem; text-align: left;">
-              <h5 style="margin-bottom: 0.5rem;">What Happens Next:</h5>
-              <ol style="margin-left: 1.25rem; display: flex; flex-direction: column; gap: 0.35rem; color: var(--color-text-body);">
-                <li>We verify product availability and tiered quantity pricing.</li>
-                <li>If programming was requested, we verify chip memory requirements (NTAG213 / NTAG215).</li>
-                <li>You will receive an itemised PDF quotation within 1 business day.</li>
+            <div style="background: var(--color-bg-alt); padding: 1.5rem; border-radius: var(--radius-md); max-width: 540px; margin: 0 auto 2rem; font-size: 0.9375rem; text-align: left; border: 1px solid var(--color-border);">
+              <h5 style="margin-bottom: 0.75rem; color: var(--color-text-heading);">What Happens Next:</h5>
+              <ol style="margin-left: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem; color: var(--color-text-body);">
+                <li><strong>Direct Message:</strong> Your designated local installer will text or WhatsApp you to confirm venue address, layout, and installation schedule.</li>
+                <li><strong>In-Person Delivery & Fit:</strong> We bring pre-programmed, high-durability NFC units directly to your venue and fit them to counters, host stands, or tables.</li>
+                <li><strong>Tap-Testing & Handover:</strong> We test each chip live on both Apple iOS and Android devices to verify 100% instantaneous scan reliability before handover.</li>
               </ol>
             </div>
-            <button onclick="location.reload()" class="btn btn-secondary btn-sm">Submit Another Quote Request</button>
+            <button onclick="location.reload()" class="btn btn-secondary btn-sm">Submit Another Request</button>
           </div>
 
         </div>
