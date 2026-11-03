@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" fill="none" width="240" height="48">
+  <g transform="translate(4, 6)">
+    <rect x="0" y="0" width="36" height="36" rx="8" fill="#1F382E"/>
+    <circle cx="18" cy="18" r="10" stroke="#FAF9F6" stroke-width="2" stroke-opacity="0.25"/>
+    <circle cx="18" cy="18" r="6" fill="#3D6B57"/>
+    <circle cx="18" cy="18" r="2.5" fill="#FAF9F6"/>
+  </g>
+  <text x="52" y="27" font-family="system-ui, -apple-system, sans-serif" font-size="19" font-weight="800" letter-spacing="-0.02em" fill="#0E1113">VENUE<tspan fill="#2D4F41" font-weight="500">POINT</tspan></text>
+  <text x="52" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="7.5" font-weight="600" letter-spacing="0.14em" fill="#6B7280">HOSPITALITY SOLUTIONS</text>
+</svg>
